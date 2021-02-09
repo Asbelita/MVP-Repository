@@ -1,0 +1,6 @@
+module LoginMVP {
+  umbrella header "LoginMVP-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7360EC6425D1B65500A281E9 /* LoginUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7360EC6325D1B65500A281E9 /* LoginUseCaseTests.swift */; };
+		7360EC7425D1B83500A281E9 /* LoginRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7360EC7325D1B83500A281E9 /* LoginRepositoryMock.swift */; };
 		736DF8F725CD90AA00C2B34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736DF8F625CD90AA00C2B34B /* AppDelegate.swift */; };
-		736DF8F925CD90AA00C2B34B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736DF8F825CD90AA00C2B34B /* SceneDelegate.swift */; };
-		736DF8FB25CD90AA00C2B34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736DF8FA25CD90AA00C2B34B /* ViewController.swift */; };
-		736DF8FE25CD90AA00C2B34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736DF8FC25CD90AA00C2B34B /* Main.storyboard */; };
 		736DF90025CD90AC00C2B34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736DF8FF25CD90AC00C2B34B /* Assets.xcassets */; };
 		736DF90325CD90AC00C2B34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736DF90125CD90AC00C2B34B /* LaunchScreen.storyboard */; };
-		736DF90E25CD90AC00C2B34B /* MVP_RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736DF90D25CD90AC00C2B34B /* MVP_RepositoryTests.swift */; };
 		736DF91925CD90AC00C2B34B /* MVP_RepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736DF91825CD90AC00C2B34B /* MVP_RepositoryUITests.swift */; };
+		AA06FB9890544015E1C2F349 /* libPods-MVP-Repository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 122C2E69E7862ADF5D51F8F5 /* libPods-MVP-Repository.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +34,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		122C2E69E7862ADF5D51F8F5 /* libPods-MVP-Repository.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVP-Repository.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E80CB9F82F28B08694E214A /* Pods-MVP-Repository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-Repository.release.xcconfig"; path = "Target Support Files/Pods-MVP-Repository/Pods-MVP-Repository.release.xcconfig"; sourceTree = "<group>"; };
+		7360EC6225D1B65500A281E9 /* MVP-RepositoryTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVP-RepositoryTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		7360EC6325D1B65500A281E9 /* LoginUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseTests.swift; sourceTree = "<group>"; };
+		7360EC7325D1B83500A281E9 /* LoginRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryMock.swift; sourceTree = "<group>"; };
 		736DF8F325CD90AA00C2B34B /* MVP-Repository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-Repository.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736DF8F625CD90AA00C2B34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		736DF8F825CD90AA00C2B34B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		736DF8FA25CD90AA00C2B34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		736DF8FD25CD90AA00C2B34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736DF8FF25CD90AC00C2B34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736DF90225CD90AC00C2B34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736DF90425CD90AC00C2B34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736DF90925CD90AC00C2B34B /* MVP-RepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-RepositoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		736DF90D25CD90AC00C2B34B /* MVP_RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_RepositoryTests.swift; sourceTree = "<group>"; };
 		736DF90F25CD90AC00C2B34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736DF91425CD90AC00C2B34B /* MVP-RepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-RepositoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736DF91825CD90AC00C2B34B /* MVP_RepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_RepositoryUITests.swift; sourceTree = "<group>"; };
 		736DF91A25CD90AC00C2B34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF5B3A6071A1BEDA45A6D57 /* Pods-MVP-Repository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-Repository.debug.xcconfig"; path = "Target Support Files/Pods-MVP-Repository/Pods-MVP-Repository.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA06FB9890544015E1C2F349 /* libPods-MVP-Repository.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +78,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7360EC0425D19EF600A281E9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				736DF90125CD90AC00C2B34B /* LaunchScreen.storyboard */,
+				736DF8FF25CD90AC00C2B34B /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		7360EC5F25D1B62500A281E9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7360EC6025D1B62A00A281E9 /* Domain */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7360EC6025D1B62A00A281E9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7360EC6125D1B63100A281E9 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7360EC6125D1B63100A281E9 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				7360EC7225D1B80300A281E9 /* Mock */,
+				7360EC6325D1B65500A281E9 /* LoginUseCaseTests.swift */,
+				7360EC6225D1B65500A281E9 /* MVP-RepositoryTests-Bridging-Header.h */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		7360EC7225D1B80300A281E9 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				7360EC7325D1B83500A281E9 /* LoginRepositoryMock.swift */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
 		736DF8EA25CD90AA00C2B34B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +128,8 @@
 				736DF90C25CD90AC00C2B34B /* MVP-RepositoryTests */,
 				736DF91725CD90AC00C2B34B /* MVP-RepositoryUITests */,
 				736DF8F425CD90AA00C2B34B /* Products */,
+				E51EA35804AEB39B08209494 /* Pods */,
+				7D9BA29F0F308E942C38C470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				736DF8F625CD90AA00C2B34B /* AppDelegate.swift */,
-				736DF8F825CD90AA00C2B34B /* SceneDelegate.swift */,
-				736DF8FA25CD90AA00C2B34B /* ViewController.swift */,
-				736DF8FC25CD90AA00C2B34B /* Main.storyboard */,
-				736DF8FF25CD90AC00C2B34B /* Assets.xcassets */,
-				736DF90125CD90AC00C2B34B /* LaunchScreen.storyboard */,
 				736DF90425CD90AC00C2B34B /* Info.plist */,
+				7360EC0425D19EF600A281E9 /* Supporting */,
 			);
 			path = "MVP-Repository";
 			sourceTree = "<group>";
@@ -113,7 +156,7 @@
 		736DF90C25CD90AC00C2B34B /* MVP-RepositoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				736DF90D25CD90AC00C2B34B /* MVP_RepositoryTests.swift */,
+				7360EC5F25D1B62500A281E9 /* Login */,
 				736DF90F25CD90AC00C2B34B /* Info.plist */,
 			);
 			path = "MVP-RepositoryTests";
@@ -128,6 +171,23 @@
 			path = "MVP-RepositoryUITests";
 			sourceTree = "<group>";
 		};
+		7D9BA29F0F308E942C38C470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				122C2E69E7862ADF5D51F8F5 /* libPods-MVP-Repository.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51EA35804AEB39B08209494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF5B3A6071A1BEDA45A6D57 /* Pods-MVP-Repository.debug.xcconfig */,
+				1E80CB9F82F28B08694E214A /* Pods-MVP-Repository.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736DF91D25CD90AC00C2B34B /* Build configuration list for PBXNativeTarget "MVP-Repository" */;
 			buildPhases = (
+				4DF59E1055FF92F8F5C0C63B /* [CP] Check Pods Manifest.lock */,
 				736DF8EF25CD90AA00C2B34B /* Sources */,
 				736DF8F025CD90AA00C2B34B /* Frameworks */,
 				736DF8F125CD90AA00C2B34B /* Resources */,
+				5D3F63E2B71970AEE914A373 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +260,7 @@
 					};
 					736DF90825CD90AC00C2B34B = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 736DF8F225CD90AA00C2B34B;
 					};
 					736DF91325CD90AC00C2B34B = {
@@ -233,7 +296,6 @@
 			files = (
 				736DF90325CD90AC00C2B34B /* LaunchScreen.storyboard in Resources */,
 				736DF90025CD90AC00C2B34B /* Assets.xcassets in Resources */,
-				736DF8FE25CD90AA00C2B34B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +315,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DF59E1055FF92F8F5C0C63B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVP-Repository-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3F63E2B71970AEE914A373 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVP-Repository/Pods-MVP-Repository-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVP-Repository/Pods-MVP-Repository-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVP-Repository/Pods-MVP-Repository-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		736DF8EF25CD90AA00C2B34B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736DF8FB25CD90AA00C2B34B /* ViewController.swift in Sources */,
 				736DF8F725CD90AA00C2B34B /* AppDelegate.swift in Sources */,
-				736DF8F925CD90AA00C2B34B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736DF90E25CD90AC00C2B34B /* MVP_RepositoryTests.swift in Sources */,
+				7360EC6425D1B65500A281E9 /* LoginUseCaseTests.swift in Sources */,
+				7360EC7425D1B83500A281E9 /* LoginRepositoryMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		736DF8FC25CD90AA00C2B34B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				736DF8FD25CD90AA00C2B34B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		736DF90125CD90AC00C2B34B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,11 +528,13 @@
 		};
 		736DF91E25CD90AC00C2B34B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF5B3A6071A1BEDA45A6D57 /* Pods-MVP-Repository.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVP-Repository/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +548,13 @@
 		};
 		736DF91F25CD90AC00C2B34B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E80CB9F82F28B08694E214A /* Pods-MVP-Repository.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVP-Repository/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +571,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVP-RepositoryTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
@@ -482,6 +582,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ApApps.MVP-RepositoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVP-RepositoryTests/Login/Domain/UseCase/MVP-RepositoryTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP-Repository.app/MVP-Repository";
@@ -493,6 +595,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVP-RepositoryTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
@@ -503,6 +606,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ApApps.MVP-RepositoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVP-RepositoryTests/Login/Domain/UseCase/MVP-RepositoryTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP-Repository.app/MVP-Repository";

@@ -1,9 +1,3 @@
-//
-//  MVP_RepositoryUITests.swift
-//  MVP-RepositoryUITests
-//
-//  Created by ASBEL PARRA on 2/5/21.
-//
 
 import XCTest
 

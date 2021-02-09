@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (5.4.1)
+  - LoginMVP (1.0):
+    - Alamofire (~> 5.4.0)
+
+DEPENDENCIES:
+  - LoginMVP
+
+SPEC REPOS:
+  https://github.com/Asbelita/LoginMVPPodSpecs.git:
+    - LoginMVP
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  LoginMVP: b013574cdd6f1c2b4348ddec15ca4f15167c678d
+
+PODFILE CHECKSUM: 8d8d41250ad07e43bce2a03f6d12d13938e5230f
+
+COCOAPODS: 1.10.1
